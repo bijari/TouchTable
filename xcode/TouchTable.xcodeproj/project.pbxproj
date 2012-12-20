@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00BAE65A0E7ED9C10018A608 /* TouchTableApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* TouchTableApp.cpp */; };
+		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E70E8D2F163B069F00950C9D /* mButtom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E70E8D2D163B069F00950C9D /* mButtom.cpp */; };
+		E7B6CD951667FEA6009E32B4 /* RootScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B6CD931667FEA6009E32B4 /* RootScene.cpp */; };
+		E7B987061639B7660068538D /* OscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B987021639B7660068538D /* OscBundle.cpp */; };
+		E7B987071639B7660068538D /* OscListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B987031639B7660068538D /* OscListener.cpp */; };
+		E7B987081639B7660068538D /* OscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B987041639B7660068538D /* OscMessage.cpp */; };
+		E7B987091639B7660068538D /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B987051639B7660068538D /* OscSender.cpp */; };
+		E7B987131639B7980068538D /* TuioClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7B987121639B7980068538D /* TuioClient.cpp */; };
+		E7BD1EC8164D64930009B562 /* blur_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E7BD1EC6164D64930009B562 /* blur_frag.glsl */; };
+		E7BD1EC9164D64930009B562 /* blur_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E7BD1EC7164D64930009B562 /* blur_vert.glsl */; };
+		E7CDFA821649920E0019019C /* Scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7CDFA801649920E0019019C /* Scene.cpp */; };
+		E7D4AB1C16776AB500ECBB6A /* mTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7D4AB1B16776AB500ECBB6A /* mTriangle.cpp */; };
+		E7EE9076167904F2002351FC /* mGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7EE9074167904F2002351FC /* mGrid.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0097E3E40F3E9819005A4392 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00BAE6590E7ED9C10018A608 /* TouchTableApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TouchTableApp.cpp; path = ../src/TouchTableApp.cpp; sourceTree = SOURCE_ROOT; };
+		00CCAF14116A9FEE008396D5 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CinderApp.icns; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TouchTable_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchTable_Prefix.pch; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TouchTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E70E8D2D163B069F00950C9D /* mButtom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mButtom.cpp; path = ../src/mButtom.cpp; sourceTree = "<group>"; };
+		E78604AE1676444000F2BFE9 /* Scene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Scene.h; path = ../include/Scene.h; sourceTree = "<group>"; };
+		E78604B01676445500F2BFE9 /* RootScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RootScene.h; path = ../include/RootScene.h; sourceTree = "<group>"; };
+		E7B6CD931667FEA6009E32B4 /* RootScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RootScene.cpp; path = ../src/RootScene.cpp; sourceTree = "<group>"; };
+		E7B986EE1639B7660068538D /* IpEndpointName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IpEndpointName.h; sourceTree = "<group>"; };
+		E7B986EF1639B7660068538D /* NetworkingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingUtils.h; sourceTree = "<group>"; };
+		E7B986F01639B7660068538D /* PacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketListener.h; sourceTree = "<group>"; };
+		E7B986F11639B7660068538D /* TimerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerListener.h; sourceTree = "<group>"; };
+		E7B986F21639B7660068538D /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		E7B986F41639B7660068538D /* MessageMappingOscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageMappingOscPacketListener.h; sourceTree = "<group>"; };
+		E7B986F51639B7660068538D /* OscException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscException.h; sourceTree = "<group>"; };
+		E7B986F61639B7660068538D /* OscHostEndianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscHostEndianness.h; sourceTree = "<group>"; };
+		E7B986F71639B7660068538D /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscOutboundPacketStream.h; sourceTree = "<group>"; };
+		E7B986F81639B7660068538D /* OscPacketListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscPacketListener.h; sourceTree = "<group>"; };
+		E7B986F91639B7660068538D /* OscPrintReceivedElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscPrintReceivedElements.h; sourceTree = "<group>"; };
+		E7B986FA1639B7660068538D /* OscReceivedElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscReceivedElements.h; sourceTree = "<group>"; };
+		E7B986FB1639B7660068538D /* OscTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
+		E7B986FC1639B7660068538D /* OscArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscArg.h; sourceTree = "<group>"; };
+		E7B986FD1639B7660068538D /* OscBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscBundle.h; sourceTree = "<group>"; };
+		E7B986FE1639B7660068538D /* OscListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscListener.h; sourceTree = "<group>"; };
+		E7B986FF1639B7660068538D /* OscMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscMessage.h; sourceTree = "<group>"; };
+		E7B987001639B7660068538D /* OscSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscSender.h; sourceTree = "<group>"; };
+		E7B987021639B7660068538D /* OscBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscBundle.cpp; sourceTree = "<group>"; };
+		E7B987031639B7660068538D /* OscListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscListener.cpp; sourceTree = "<group>"; };
+		E7B987041639B7660068538D /* OscMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscMessage.cpp; sourceTree = "<group>"; };
+		E7B987051639B7660068538D /* OscSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscSender.cpp; sourceTree = "<group>"; };
+		E7B9870D1639B7980068538D /* TuioClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioClient.h; sourceTree = "<group>"; };
+		E7B9870E1639B7980068538D /* TuioCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioCursor.h; sourceTree = "<group>"; };
+		E7B9870F1639B7980068538D /* TuioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioObject.h; sourceTree = "<group>"; };
+		E7B987101639B7980068538D /* TuioProfileBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioProfileBase.h; sourceTree = "<group>"; };
+		E7B987121639B7980068538D /* TuioClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TuioClient.cpp; sourceTree = "<group>"; };
+		E7BD1EC6164D64930009B562 /* blur_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = blur_frag.glsl; path = ../resources/blur_frag.glsl; sourceTree = "<group>"; };
+		E7BD1EC7164D64930009B562 /* blur_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = blur_vert.glsl; path = ../resources/blur_vert.glsl; sourceTree = "<group>"; };
+		E7CDFA7E164958200019019C /* mButtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mButtom.h; path = ../include/mButtom.h; sourceTree = "<group>"; };
+		E7CDFA801649920E0019019C /* Scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Scene.cpp; path = ../src/Scene.cpp; sourceTree = "<group>"; };
+		E7D4AB1A16776AA500ECBB6A /* mTriangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mTriangle.h; path = ../include/mTriangle.h; sourceTree = "<group>"; };
+		E7D4AB1B16776AB500ECBB6A /* mTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mTriangle.cpp; path = ../src/mTriangle.cpp; sourceTree = "<group>"; };
+		E7EE9074167904F2002351FC /* mGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mGrid.cpp; path = ../src/mGrid.cpp; sourceTree = "<group>"; };
+		E7EE9075167904F2002351FC /* mGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mGrid.h; path = ../src/mGrid.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E7D4AB1B16776AB500ECBB6A /* mTriangle.cpp */,
+				E7EE9074167904F2002351FC /* mGrid.cpp */,
+				E70E8D2D163B069F00950C9D /* mButtom.cpp */,
+				E7CDFA801649920E0019019C /* Scene.cpp */,
+				E7B6CD931667FEA6009E32B4 /* RootScene.cpp */,
+				00BAE6590E7ED9C10018A608 /* TouchTableApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				0097E3E40F3E9819005A4392 /* QuickTime.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				53E3CDFB0E86099300238D2B /* Carbon.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TouchTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TouchTable */ = {
+			isa = PBXGroup;
+			children = (
+				E7EADCED16692BC50082506C /* Assets */,
+				E7B986EB1639B7410068538D /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = TouchTable;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E7EE9075167904F2002351FC /* mGrid.h */,
+				E7D4AB1A16776AA500ECBB6A /* mTriangle.h */,
+				E7CDFA7E164958200019019C /* mButtom.h */,
+				E78604B01676445500F2BFE9 /* RootScene.h */,
+				32CA4F630368D1EE00C91783 /* TouchTable_Prefix.pch */,
+				E78604AE1676444000F2BFE9 /* Scene.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7BD1EC6164D64930009B562 /* blur_frag.glsl */,
+				E7BD1EC7164D64930009B562 /* blur_vert.glsl */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B986EB1639B7410068538D /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B9870B1639B7880068538D /* Tuio */,
+				E7B9870A1639B76B0068538D /* Osc */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		E7B986EC1639B7660068538D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7B986ED1639B7660068538D /* ip */,
+				E7B986F31639B7660068538D /* osc */,
+				E7B986FC1639B7660068538D /* OscArg.h */,
+				E7B986FD1639B7660068538D /* OscBundle.h */,
+				E7B986FE1639B7660068538D /* OscListener.h */,
+				E7B986FF1639B7660068538D /* OscMessage.h */,
+				E7B987001639B7660068538D /* OscSender.h */,
+			);
+			name = include;
+			path = ../../../cinder_0.8.4_mac/blocks/osc/include;
+			sourceTree = "<group>";
+		};
+		E7B986ED1639B7660068538D /* ip */ = {
+			isa = PBXGroup;
+			children = (
+				E7B986EE1639B7660068538D /* IpEndpointName.h */,
+				E7B986EF1639B7660068538D /* NetworkingUtils.h */,
+				E7B986F01639B7660068538D /* PacketListener.h */,
+				E7B986F11639B7660068538D /* TimerListener.h */,
+				E7B986F21639B7660068538D /* UdpSocket.h */,
+			);
+			path = ip;
+			sourceTree = "<group>";
+		};
+		E7B986F31639B7660068538D /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				E7B986F41639B7660068538D /* MessageMappingOscPacketListener.h */,
+				E7B986F51639B7660068538D /* OscException.h */,
+				E7B986F61639B7660068538D /* OscHostEndianness.h */,
+				E7B986F71639B7660068538D /* OscOutboundPacketStream.h */,
+				E7B986F81639B7660068538D /* OscPacketListener.h */,
+				E7B986F91639B7660068538D /* OscPrintReceivedElements.h */,
+				E7B986FA1639B7660068538D /* OscReceivedElements.h */,
+				E7B986FB1639B7660068538D /* OscTypes.h */,
+			);
+			path = osc;
+			sourceTree = "<group>";
+		};
+		E7B987011639B7660068538D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E7B987021639B7660068538D /* OscBundle.cpp */,
+				E7B987031639B7660068538D /* OscListener.cpp */,
+				E7B987041639B7660068538D /* OscMessage.cpp */,
+				E7B987051639B7660068538D /* OscSender.cpp */,
+			);
+			name = src;
+			path = ../../../cinder_0.8.4_mac/blocks/osc/src;
+			sourceTree = "<group>";
+		};
+		E7B9870A1639B76B0068538D /* Osc */ = {
+			isa = PBXGroup;
+			children = (
+				E7B986EC1639B7660068538D /* include */,
+				E7B987011639B7660068538D /* src */,
+			);
+			name = Osc;
+			sourceTree = "<group>";
+		};
+		E7B9870B1639B7880068538D /* Tuio */ = {
+			isa = PBXGroup;
+			children = (
+				E7B9870C1639B7980068538D /* include */,
+				E7B987111639B7980068538D /* src */,
+			);
+			name = Tuio;
+			sourceTree = "<group>";
+		};
+		E7B9870C1639B7980068538D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7B9870D1639B7980068538D /* TuioClient.h */,
+				E7B9870E1639B7980068538D /* TuioCursor.h */,
+				E7B9870F1639B7980068538D /* TuioObject.h */,
+				E7B987101639B7980068538D /* TuioProfileBase.h */,
+			);
+			name = include;
+			path = ../../../cinder_0.8.4_mac/blocks/tuio/include;
+			sourceTree = "<group>";
+		};
+		E7B987111639B7980068538D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E7B987121639B7980068538D /* TuioClient.cpp */,
+			);
+			name = src;
+			path = ../../../cinder_0.8.4_mac/blocks/tuio/src;
+			sourceTree = "<group>";
+		};
+		E7EADCED16692BC50082506C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TouchTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TouchTable" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchTable;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TouchTable;
+			productReference = 8D1107320486CEB800E47090 /* TouchTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TouchTable" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TouchTable */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TouchTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
+				E7BD1EC8164D64930009B562 /* blur_frag.glsl in Resources */,
+				E7BD1EC9164D64930009B562 /* blur_vert.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAE65A0E7ED9C10018A608 /* TouchTableApp.cpp in Sources */,
+				E7B987061639B7660068538D /* OscBundle.cpp in Sources */,
+				E7B987071639B7660068538D /* OscListener.cpp in Sources */,
+				E7B987081639B7660068538D /* OscMessage.cpp in Sources */,
+				E7B987091639B7660068538D /* OscSender.cpp in Sources */,
+				E7B987131639B7980068538D /* TuioClient.cpp in Sources */,
+				E70E8D2F163B069F00950C9D /* mButtom.cpp in Sources */,
+				E7CDFA821649920E0019019C /* Scene.cpp in Sources */,
+				E7B6CD951667FEA6009E32B4 /* RootScene.cpp in Sources */,
+				E7D4AB1C16776AB500ECBB6A /* mTriangle.cpp in Sources */,
+				E7EE9076167904F2002351FC /* mGrid.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchTable_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"-lcurl",
+					"\"$(CINDER_PATH)/blocks/osc/lib/macosx/osc.a\"",
+				);
+				PRODUCT_NAME = TouchTable;
+				SYMROOT = ./build;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"$(CINDER_PATH)/blocks/osc/include\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TouchTable_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"-lcurl",
+					"\"$(CINDER_PATH)/blocks/osc/lib/macosx/osc.a\"",
+				);
+				PRODUCT_NAME = TouchTable;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include \"$(CINDER_PATH)/blocks/osc/include\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../cinder_0.8.4_mac;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../cinder_0.8.4_mac;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TouchTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TouchTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

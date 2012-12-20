@@ -1,0 +1,347 @@
+TTouchTable
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch.pth TouchTable_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/MacOS/TouchTable normal i386
+cTouch /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000508A948400000000000024F0
+t1351259268
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000508A94850000000000024D90
+t1351259269
+s150928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000508A948500000000000060B4
+t1351259269
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000508A948500000000000001E5
+t1351259269
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000508A9485000000000000E920
+t1351259269
+s59680
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004EC64C540000000000006530
+t1321618516
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004EC64C550000000000006560
+t1321618517
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000050896EC8000000000007CED0
+t1351184072
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000050896F07000000000002D360
+t1351184135
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000050896F1900000000004B9FB0
+t1351184153
+s4956080
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c0000000050896F19000000000032B7E0
+t1351184153
+s3323872
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp
+c000000004FADAEF200000000000007E1
+t1336782578
+s2017
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp
+c000000004FADAEF200000000000016A1
+t1336782578
+s5793
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp
+c000000004FADAEF200000000000010AD
+t1336782578
+s4269
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp
+c000000004FADAEF20000000000001059
+t1336782578
+s4185
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp
+c000000004FADAEF200000000000036D9
+t1336782578
+s14041
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp
+c00000000508AF8E40000000000000FDB
+t1351284964
+s4059
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp
+c00000000508ADC92000000000000019E
+t1351277714
+s414
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Info.plist
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/MacOS/TouchTable
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTable.LinkFileList
+c00000000508E8EF50000000000000404
+t1351519989
+s1028
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.o
+t2
+s0
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/CinderApp.icns
+c0000000050897AEF000000000001BEB5
+t1351187183
+s114357
+
+N/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/TouchTable_Prefix.pch
+c0000000050897AEF0000000000000093
+t1351187183
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch.pth
+t1351259617
+s95544
+
+NInfo.plist
+c0000000050897AEF0000000000000350
+t1351187183
+s848
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp
+r0
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp
+r0
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp
+r0
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp
+r0
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp
+r0
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp
+r0
+
+CBuild AST from /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd74e4c75c63eb641^a81c5375c63eb641^---0#1#0#--18"Check dependencies36"9A6DC7F3-6AC9-476A-8C4E-E4364960778E-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.393193
+e373212790.381237
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cppb4e56475c63eb641^5fb26176c63eb641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp0000000000000000^3133"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.o ../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscBundle.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscBundle.o36"76650E8C-A1A3-45C1-BD21-C749CA73037D-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.393213
+e373212792.447887
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp96ec6475c63eb641^22a87278c63eb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp0000000000000000^3145"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.o ../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscListener.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscListener.o36"9948D84B-2E7A-44E1-8EA8-470AAB72A004-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.393530
+e373212790.378743
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp68eb6475c63eb641^b2f56076c63eb641^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp0000000000000000^3139"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.o ../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscMessage.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscMessage.o36"58CF4A2C-2C55-457F-92ED-31F54115A27E-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.393518
+e373212790.360901
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cppc9e86475c63eb641^e0635c76c63eb641^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp0000000000000000^3133"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.o ../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/osc/src/OscSender.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/OscSender.o36"A88C5BA0-F763-449F-9BD6-2D04E59A4417-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.392859
+e373212793.067235
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp:171:29: warning: unused variable 'vec_it' [-Wunused-variable]
+o    vector<Vec2f>::iterator vec_it = mTouches.begin();
+o                            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cppcde76475c63eb641^22351179c63eb641^-259"/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp:171:29: warning: unused variable 'vec_it' [-Wunused-variable]    vector<Vec2f>::iterator vec_it = mTouches.begin();                            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@24"Unused variable 'vec_it'-373212793#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/src/TouchTableApp.cpp0000000000000000^170#28#170#28#3356#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp0000000000000000^3089"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.o ../src/TouchTableApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/TouchTableApp.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTableApp.o36"0ACC2880-2BCD-42D7-A7D5-7DA5A190DAC7-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.393542
+e373212793.406241
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp70ed6475c63eb641^3f016879c63eb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp0000000000000000^3141"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.o ../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../../../cinder_0.8.4_mac/blocks/tuio/src/TuioClient.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TuioClient.o36"6CDCCF7D-F3E6-4F04-95F4-AC9DAFD42F5B-
+
+CCompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s373212789.393544
+e373212791.894932
+r1
+xCompileC
+x./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.o
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp3ee96475c63eb641^501be577c63eb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp0000000000000000^3053"CompileC ./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.o ../src/mButtom.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-generated-files.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-own-target-headers.hmap -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-all-target-headers.hmap -iquote /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/TouchTable-project-headers.hmap -iquote../../../cinder_0.8.4_mac/include -iquote../include -iquote../../../cinder_0.8.4_mac/blocks/osc/include -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug/include -I../../../cinder_0.8.4_mac/boost -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources/i386 -I/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/DerivedSources -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -include /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch -MMD -MT dependencies -MF /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.d --serialize-diagnostics /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.dia -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/../src/mButtom.cpp -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/mButtom.o36"56F006CA-11D0-4F60-8BBF-785BBC8C690D-
+
+CCpResource CinderApp.icns ./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns
+s373212789.357154
+e373212789.376211
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy ./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns40855b75c63eb641^27506075c63eb641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns000000000080d041^469"CpResource CinderApp.icns ./build/Debug/TouchTable.app/Contents/Resources/CinderApp.icns    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/CinderApp.icns /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Resources36"50CC9F05-65DC-4F19-8966-EA9647F409B3-
+
+CLd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/MacOS/TouchTable normal i386
+s373212793.414176
+e373212797.630873
+r1
+xLd
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/MacOS/TouchTable
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Link /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/MacOS/TouchTabled6356a79c63eb641^cf81a17dc63eb641^---0#0#0#--1186"Ld ./build/Debug/TouchTable.app/Contents/MacOS/TouchTable normal i386    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -F/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/build/Debug -filelist /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/TouchTable.build/Debug/TouchTable.build/Objects-normal/i386/TouchTable.LinkFileList -mmacosx-version-min=10.5 ../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl ../../../cinder_0.8.4_mac/blocks/osc/lib/macosx/osc.a -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/MacOS/TouchTable36"4745E1E6-694C-4A77-A498-6C2381A45491-
+
+CProcessInfoPlistFile /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Info.plist Info.plist
+s373212789.332216
+e373212789.343517
+r1
+xProcessInfoPlistFile
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist6c5e5575c63eb641^84f15775c63eb641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/Info.plist0000000000000000^474"ProcessInfoPlistFile ./build/Debug/TouchTable.app/Contents/Info.plist Info.plist    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app/Contents/Info.plist36"1BDFB619-0C00-4F7D-8285-34719D45BB77-
+
+CProcessPCH++ /Users/bijabook2/Library/Developer/Xcode/DerivedData/TouchTable-gamrsfprvgvpxcfdzpuvblqqujje/Index/PrecompiledHeaders/TouchTable_Prefix-elittjwfgaensrhelvzcruqbwuta_ast/TouchTable_Prefix.pch.pth TouchTable_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/v3/q63lzt0n4vd4d58pkdyw4jpm0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TouchTable_Prefix-gtflqcproocqivdjuvdlzofcrxoz/TouchTable_Prefix.pch.pth TouchTable_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app
+s373212797.639216
+e373212797.852750
+r1
+xTouch
+x/Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Touch /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app7db1a37dc63eb641^c592da7dc63eb641^---0#0#0#--225"Touch ./build/Debug/TouchTable.app    cd /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode    /usr/bin/touch -c /Users/bijabook2/Documents/Cinder/CinderProjects/TouchTable/xcode/./build/Debug/TouchTable.app36"3DC90566-A596-42D8-BB87-98C6BF3AAE19-
+
